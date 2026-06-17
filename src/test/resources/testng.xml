@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Eesha Noor - Appium Mobile Suite" verbose="1">
+    <parameter name="platform" value="android"/>
+    <test name="Login Tests">
+        <classes>
+            <class name="com.eeshanoor.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
